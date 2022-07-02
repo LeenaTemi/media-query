@@ -9,12 +9,16 @@ body
   height: 100vh;
   background-color: hsl(0, 100%, 74%);
 }
-@media and (max-width: 1440px){
-    font-size: 16px;
+@media (max-width: 1440px){
+    html-element{
+        font-size: 16px;
+    }
 }
-@media and (min-width: 375px){
-    font-size: 16px;
-    display: inline;
+@media (min-width: 375px){
+    html-element{
+        font-size: 16px;
+        display: inline;
+    }
 }
 
 /* .back-img{
