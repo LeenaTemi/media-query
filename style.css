@@ -10,15 +10,19 @@ body
   background-color: hsl(0, 100%, 74%);
 }
 @media (max-width: 1440px){
-    html-element{
+    main{
+        /* display: flex;
+        flex-direction: row; */
         font-size: 16px;
+        height: 100%;
     }
 }
 @media (min-width: 375px){
-    html-element{
-        font-size: 16px;
-        display: inline;
-    }
+    main{
+        font-size: 10px;
+    
+        height: 50%;
+    } 
 }
 
 /* .back-img{
@@ -33,7 +37,7 @@ main{
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 .left{
     position: relative;
