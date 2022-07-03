@@ -11,18 +11,25 @@ body
 }
 @media (max-width: 1440px){
     main{
-        /* display: flex;
-        flex-direction: row; */
-        font-size: 16px;
         height: 100%;
     }
 }
-@media (min-width: 375px){
+@media (max-width: 375px){
     main{
-        font-size: 10px;
-    
-        height: 50%;
+        flex-direction: column;
+        height: 100vh;
+        padding-left: 10px;
+        
     } 
+    .left{
+        padding-left: 50px;
+    }
+    /* .left h1{
+        font-size: 20px;
+    }
+    .left p{
+        font-size: 10px;
+    } */
 }
 
 /* .back-img{
@@ -42,12 +49,17 @@ main{
 .left{
     position: relative;
     color: aliceblue;
-    font-size: large;
     align-items: left;
     justify-content: flex-end;
     font-family: 'Poppins', sans-serif;
-    padding-left: 150px;
+    padding-left: 100px;
 }
+/* .left h1{
+    font-size: 50px;
+}
+.left p{
+    font-size: 20px;
+} */
 .side{
     padding-top: 50px;
 }
